@@ -1,9 +1,5 @@
-let firstName: string = ''
-firstName = 'Max'
+/*
+data types
 
-/*    
-  tsc main.js 
-
-  var firstName = '';
-  firstName = 'Max';
+number, string, boolean, object, undefined, unknown, void
 */

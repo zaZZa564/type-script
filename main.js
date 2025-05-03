@@ -1,2 +1,12 @@
-var firstName = '';
-firstName = 'Max';
+var entity1;
+entity1 = 1;
+var entity2;
+entity2 = 'abc';
+var entity3;
+entity3 = true;
+var entity4;
+entity4 = {};
+var entity5;
+entity4 = {};
+var entity6;
+entity4 = {};
