@@ -1,1 +1,1 @@
-const list: object = {}
+export const list: object = {}
