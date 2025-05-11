@@ -36,3 +36,10 @@ common = {
   ...user1,
   ...address1
 }
+
+// массивы
+let array: string[]
+array = ['s1', 's2', 's3']
+
+const arr2:ReadonlyArray<number> = [0, 1, 2, 3] //неизменяемый массив
+console.log(arr2[2])
