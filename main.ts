@@ -43,3 +43,7 @@ array = ['s1', 's2', 's3']
 
 const arr2:ReadonlyArray<number> = [0, 1, 2, 3] //неизменяемый массив
 console.log(arr2[2])
+
+// кортежи
+type TypeArray = [number, string, null]
+const newArr: TypeArray = [1, 's1', null]
