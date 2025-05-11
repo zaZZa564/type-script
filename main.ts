@@ -15,11 +15,24 @@ type TypeUser = {
   age: number
   address: string
 }
+type TypeAddress = {
+  city: string
+  country: string
+}
 
 let user1: TypeUser
-
+let address1: TypeAddress
+address1 = {
+  city: 'SPB',
+  country: 'Russia'
+}
 user1 = {
-  address: 'SPB',
-  age: 24,
-  name: 'rick'
+	age: 24,
+	name: 'rick',
+}
+// spread
+let common: TypeAddress & TypeAddress
+common = {
+  ...user1,
+  ...address1
 }
